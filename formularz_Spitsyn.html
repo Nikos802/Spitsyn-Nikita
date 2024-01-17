@@ -1,0 +1,121 @@
+<font size=15<h1> <center>Nik-Dzienik </center></h1></font>
+<button class="button" type="button"><a href="index.html">powrót</a></button>
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+  <style>
+  body {
+    color: 6220B4;
+  }
+  </style>
+<meta charset="utf-8">
+<title> ZADANIE FORMULARZ </title>
+</head>
+<body bgcolor="#090828">
+<center>
+<div style="position: relative;">
+    <input type="text" id="searchInput" class="oq_input_name" placeholder="wyszukiwanie na stronie..." maxlength="900" style="background-color: #130239;" onkeypress="checkEnter(event)">
+</div>
+
+<script>
+    function checkEnter(event) {
+        if (event.key === "Enter") {
+            // Получите значение, введенное пользователем
+            var inputValue = document.getElementById("searchInput").value;
+
+            // Проверьте, что введенное значение не пусто
+            if (inputValue.trim() !== "") {
+                // Выполните переход на другую страницу с учетом введенных данных
+                window.location.href = "błąd.html" + encodeURIComponent(inputValue);
+            }
+        }
+    }
+</script>
+
+
+     <a href="błąd.html">   <button style="background-color: #1B0648; color: Grey; width: 180px; height: 30px; border: none;">
+      Kto wygrał turniej szachowy?
+    </button>
+    </a> 
+    
+    <style>
+      button:hover {
+        background-color: red;
+        color: red;
+        border: 1px solid red;
+      }
+    
+
+    </style>
+    </center>
+    
+  
+<div style="position: relative;">
+        <select style="position: absolute; top: 140; width: 200px; height: 33px; left: 190; ;background-color:#1B0648;font-size:21px;color:#6220B4;">
+          <option style=color:#6220B4; value="Kontakt">Kontakty</option>
+          <option style=color:#6220B4;value="dyrektor">Nikita(dyrektor)</option>
+          <option style=color:#6220B4;value="prom">Magda(Psycholog)</option>
+         <option style=color:#6220B4 value="da">Marek(wicedyrektor)</option>
+        </left>
+        </select>
+      </div>
+
+
+  <div style="float: right;">
+
+
+    <table>
+      <tr>
+        <th style="position:absolute; top: 120px; left: 1100px;color:white">  Nazwa użytkownika</th> 
+      </tr>
+      <tr style="border: 2px solid #000000;">
+        <td style="position:absolute; top: 140px; left: 1100px;"> <input name="nazwisko" size="22"></td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        
+        <th style="position:absolute; top: 170px; left:1100px;color:white"> Hasło</th>
+      </tr>
+      <tr>
+        <td style="background-color: #1B0648;position:absolute; top: 190px; left: 1100px;"background-color: #130239;"> <input name="login" size="22";></td>
+      </tr>
+    </table>
+   
+  <button style="background-color: #1B0648; color: white; width: 100px; height: 45px; border: none; transition: transform 0.5s;position: absolute; top: 220px; left: 1135px;">
+   
+  <a href="błąd.html">  <span onmouseover="this.parentElement.style.transform='scale(1.1)';" onmouseout="this.parentElement.style.transform='scale(1)';">zaloguj się</span></a>
+  </button>
+</a> 
+ <button style="background-color: #090828; color: grey; width: 184px; height: 25px; border: none; position: absolute; top: 270px; left: 1100px;">
+       <a href="błąd.html"> <span onmouseover="this.style.color='6220B4'" onmouseout="this.style.color='grey'">pierwsze logowanie/zmień hasło</span>
+    </button>
+</a> 
+  
+
+
+    <button style="background-color: #090828; color: grey; width: 190px; height: 25px; border: none; position: absolute; top: 600px; left: 1px;">sekretariat@zse.edu.gdansk.pl</button>
+    
+    <button style="background-color: #090828; color: grey; width: 190px; height: 25px; border: none; position: absolute; top: 620px; left: 1px;">www.nik_dziennik.edu.gdansk.pl</button>
+  </button>
+    
+   
+     <a href="błąd.html"> <button style="background-color: #1B0648; color: #6220B4; width: 200px; height: 33px;border: none; transition: transform 0.5s;position: absolute; top: 150px; left: 200px;">
+       <span style="font-size: 30px;"onmouseover="this.parentElement.style.transform='scale(1.1)';" onmouseout="this.parentElement.style.transform='scale(1)';">Aktualność </span>
+</a> 
+<button style="background-color: #1B0648; color: #6220B4; width: 200px; height: 33px;border: none; transition: transform 0.5s;position: absolute; top: 220px; left: 200px;">
+     
+      <a href="błąd.html">  <span style="font-size: 30px;"onmouseover="this.parentElement.style.transform='scale(1.1)';" onmouseout="this.parentElement.style.transform='scale(1)';">uczeń </span>
+
+    </button>
+</a> 
+
+
+      
+</TR>
+</TABLE>
+</form>
+</body>
+</html>
